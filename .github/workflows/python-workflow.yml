@@ -16,5 +16,5 @@ jobs:
     - name: Install dependencies
       run: |
         ls -lart
-        echo $pwd
+        echo "PWD: $PWD"
         pip install -r requirements.txt
